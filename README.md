@@ -27,7 +27,7 @@ solid-seminario/
  │        ├──  📄 Main.java
  │        ├──  📂 errado/
  │        │    └──  📄 OrderServiceErrado.java
- │        └── correto/
+ │        └──  📂 correto/
  │             ├──  📄 OrderService.java
  │             ├──  📄 OrderRepository.java
  │             └──  📄 EmailService.java
