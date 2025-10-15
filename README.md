@@ -1,6 +1,6 @@
 # 🧩 Seminário — Princípios SOLID: SRP e LSP
 
-Este repositório reúne dois projetos desenvolvidos como parte da disciplina **Técnicas de programação II**, do curso <a href="https://fatecararas.cps.sp.gov.br/tecnologia-em-desenvolvimento-de-softwares-multiplataforma/">DSM- Desenvolvimento de software multiplataforma.</a> com o objetivo de demonstrar na prática dois dos princípios **SOLID**:
+Este repositório reúne dois projetos desenvolvidos como parte da disciplina **Técnicas de programação II**, do curso <a href="https://fatecararas.cps.sp.gov.br/tecnologia-em-desenvolvimento-de-softwares-multiplataforma/">DSM- Desenvolvimento de software multiplataforma,</a> com o objetivo de demonstrar na prática dois dos princípios **SOLID**:
 
 - **SRP (Single Responsibility Principle)** — Princípio da Responsabilidade Única  
 - **LSP (Liskov Substitution Principle)** — Princípio da Substituição de Liskov  
@@ -15,22 +15,22 @@ Cada projeto apresenta **exemplos práticos de código incorreto e correto**, ev
 
 ```
 solid-seminario/
- ├──LSP/
- |     └── src/
- |         ├── Forma.java
- |         ├── Retangulo.java
- |         ├── Quadrado.java
- |         ├── ViolacaoLSP.java
- |         └── Main.java
- ├──SRP/
- │    └──  src/
- │        ├── Main.java
- │        ├── errado/
- │        │    └── OrderServiceErrado.java
+ ├──  📂 LSP/
+ |     └──  📂 src/
+ |         ├──  📄 Forma.java
+ |         ├──  📄 Retangulo.java
+ |         ├──  📄 Quadrado.java
+ |         ├──  📄 ViolacaoLSP.java
+ |         └──  📄 Main.java
+ ├──  📂 SRP/
+ │    └──   📂 src/
+ │        ├──  📄 Main.java
+ │        ├──  📂 errado/
+ │        │    └──  📄 OrderServiceErrado.java
  │        └── correto/
- │             ├── OrderService.java
- │             ├── OrderRepository.java
- │             └── EmailService.java
+ │             ├──  📄 OrderService.java
+ │             ├──  📄 OrderRepository.java
+ │             └──  📄 EmailService.java
  │    
  │
  └── 
@@ -55,8 +55,8 @@ São apresentados dois exemplos:
 ## 🎯 Objetivos de Aprendizagem
 
 - Aplicar e compreender o **SRP**.  
-- Reduzir o acoplamento e aumentar a coesão.  
-- Praticar boas práticas de design e modularização.  
+- Reduzir o acoplamento(dependência via herança) e aumentar a coesão.  
+- Praticar boas práticas de design patters e modularização.  
 
 ---
 
